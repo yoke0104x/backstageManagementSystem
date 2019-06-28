@@ -1,0 +1,47 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+#root{
+  width: 100%;
+  height: 100%;
+}
+.box{
+  width: 100%;
+  height: 100%;
+  background: #000080;
+}
+.login{
+  width: 400px;
+  height: 296px;
+  background: #FFFFFF;
+  position: absolute;
+  top: 25%;
+  right: 15%;
+  border-radius: 5px;
+}
+.logins{
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  margin-top: 40px;
+}
+.btn{
+  width: 100%;
+  margin-top: 20px;
+}
+.pwd{
+  width: 80%;
+}
+.pwds{
+  width: 20%;
+}
+#components-form-demo-normal-login .login-form {
+  max-width: 300px;
+}
+#components-form-demo-normal-login .login-form-forgot {
+  float: right;
+}
+#components-form-demo-normal-login .login-form-button {
+  width: 100%;
+}

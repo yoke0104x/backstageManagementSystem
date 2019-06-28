@@ -1,0 +1,50 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  line-height: 0;
+}
+#root{
+  width: 100%;
+  height: 100%;
+}
+.box{
+  width: 100%;
+  height: 100%;
+  background:url("http://123.206.55.50:11000/static/_KJPwrD_6Ov4mfvVzhyTXzME.jpg");
+  background-size: 100%
+}
+.login{
+  width: 400px;
+  height: 296px;
+  background: rgba(255, 255, 255, .5);
+  position: absolute;
+  top: 25%;
+  right: 15%;
+  border-radius: 5px;
+}
+.logins{
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  margin-top: 40px;
+}
+.btn{
+  width: 90%;
+  margin-top: 20px;
+}
+.pwd{
+  width: 80%;
+}
+.pwds{
+  width: 20%;
+}
+.top{
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,208 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  line-height: normal ;
+}
+
+:global {
+  .ant-layout-header {
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    box-sizing: border-box;
+  }
+  #root,#root>div,.ant-layout{
+    width: 100%;
+    height: 100%;
+  }
+  .ant-menu-item >a{
+    line-height: 40px;
+  }
+  .content{
+    width: 100%;
+    height: 100%;
+    padding:  10px 20px;
+    box-sizing: border-box;
+  }
+  .el_conent{
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+  .el_conent>p{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+  }
+  .el_conent .ant-input-affix-wrapper{
+    width: 530px;
+  }
+  .for-container{
+    height: 300px !important;
+  }
+  .ant-radio-button-wrapper{
+    border: none;
+  }
+  .ant-radio-button-wrapper:not(:first-child)::before {
+    content:"";
+    opacity: 0;
+  }
+  .el-Button{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+  .el-Button>div{
+    width: 300px;
+  }
+  .ant-select-selection,.ant-select-selection__rendered{
+    width: 150px !important;
+  }
+  .ant-radio-group{
+    margin-top: 30px !important;
+  }
+  .ant-list-item {
+    border-bottom: 1px solid #e8e8e8;
+    align-items: center;
+    display: flex;
+    padding: 12px 0;
+    box-sizing: border-box;
+  }
+  .ant-list {
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.65);
+    box-sizing: border-box;
+    list-style: none;
+  }
+  .ant-list-item-content {
+    display: flex;
+    flex: 1;
+  }
+  .ant-radio-button-wrapper-checked{
+    border: 1px solid #1890ff
+  }
+  .content-flex{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    >div{
+      width: 33%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      height: 300px;
+    }
+  }
+  .ant-tabs-tabpane-active>h1{
+    font-size: 30px;
+    padding: 5px 0;
+  }
+  .contnet-el li>a{
+    line-height: 24px;
+  }
+  .ant-pagination-item>a,.ant-pagination-item-link{
+    line-height: 30px;
+  }
+  .ant-table-row{
+    height: 50px;
+  }
+  .contnet-el thead th{
+    height: 50px;
+  }
+  #register_email{
+    width: 400px;
+  }
+  .ant-calendar-range-picker-separator{
+    line-height: 24px;
+  }
+  .ant-select-selection-selected-value{
+    height:30px;
+    line-height:30px;
+  }
+  .contnet-el h1 {
+    margin-top: 20px;
+    width: auto;
+    display: block;
+    border: none;
+    color: #000;
+    text-align: left;
+  }
+  .conent_els{
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+  }
+  .conent_els >div{
+    width: 300px;
+  }
+  .conent_els >div>span{
+    margin: 0 5px;
+  }
+  .tabs_conent{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .tabs_conent .ant-tabs-tab-active {
+    border: 1px solid #1890ff !important;
+  }
+  .tabs_conent .ant-tabs-tab {
+    border-radius: 0 !important;
+    margin: 0 !important;
+  }
+  .ulsList{
+    width: 100%;
+  }
+  .ulsList .uls{
+    width: 100%;
+  }
+  .ulsList .uls>li{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+  }
+  .ulsList .uls ol{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .active_top{
+    height: 50px !important;
+    background: #eee;
+  }
+  .ulsList .uls ol li{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ulsList .uls ol:hover{
+    background: #e6efff !important;
+  }
+  .ant-modal-confirm-btns button{
+    width: 46%;
+    margin: 0;
+  }
+  .routerA a{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+  }
+}
